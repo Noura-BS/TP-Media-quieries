@@ -1,0 +1,19 @@
+@media screen and (max-width:672px) {
+    body {
+        display:flex;
+        flex-wrap: wrap-reverse;
+    }
+    #main {
+        width:auto;
+    }
+    .entry_preview {
+        display:block;
+        width:auto;
+        height:auto;
+    }
+    .entry_preview .thumb {
+        float:left;
+        max-width: 50%;
+        padding: 5px;
+    }
+}

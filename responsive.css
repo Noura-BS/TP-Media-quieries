@@ -16,4 +16,12 @@
         max-width: 50%;
         padding: 5px;
     }
+    .entry_preview {
+        border-bottom: 1px dotted black;
+        width:100%;
+    }
+    .entry_preview .thumb, .entry_preview img {
+    border-bottom:none;
+}
+
 }
